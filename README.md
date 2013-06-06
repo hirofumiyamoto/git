@@ -40,7 +40,9 @@ cd path/to/git/
 
 Gitのリポジトリをクローンする
 例) Repository super-fugaを落としたい。
+
 git clone ssh://path/to/super-fuga
+
 git clone https://path/p/super-fuga.git
 
 最新ファイルを落として基点をリベースする
