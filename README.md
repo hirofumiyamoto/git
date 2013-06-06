@@ -22,6 +22,7 @@ sshキー生成
 https://help.github.com/articles/generating-ssh-keys
 
 Passwordを毎回聞かれてしまうので、勝手に答えてもらうようにしておく
+
 ◆Linux, Mac, Cygwinでの方法  以下を流し込んで終わり
 *****
 echo -e "machine path\n\
