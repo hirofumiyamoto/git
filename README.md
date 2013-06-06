@@ -10,10 +10,17 @@ $ vi ~/.bashrc
 alias ls='ls --show-control-chars'
 
 初期設定
+
 git config --global user.name "Hoge Fuga"
+
 git config --global user.email
 "hoge@example.com"
+
 git config --global color.ui auto
+
+sshキー生成
+
+https://help.github.com/articles/generating-ssh-keys
 
 Passwordを毎回聞かれてしまうので、勝手に答えてもらうようにしておく
 ◆Linux, Mac, Cygwinでの方法  以下を流し込んで終わり
