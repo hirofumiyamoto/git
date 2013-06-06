@@ -17,19 +17,19 @@ git config --global color.ui auto
 
 Passwordを毎回聞かれてしまうので、勝手に答えてもらうようにしておく
 ◆Linux, Mac, Cygwinでの方法  以下を流し込んで終わり
------
+*****
 echo -e "machine path\n\
 login YOURID\n\
 password YOURPASSWORD" > ~/.netrc
 chmod 600 ~/.netrc
------
+*****
 ◆msys git での方法  (改行しないでも権限変更しないでもいけました。が、危険なので要権限変更。以下を流し込んで終わり
------
+*****
 echo -e "machine path\n\
 login YOURID\n\
 password YOURPASSWORD" > ~/_netrc
 chmod 600 ~/_netrc
------
+*****
 netrcの中身が以下のような形式で作成出来ていれば良い
 machine path
 login YOURID
