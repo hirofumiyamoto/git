@@ -19,7 +19,6 @@ git config --global user.email
 git config --global color.ui auto
 
 sshキー生成
-
 https://help.github.com/articles/generating-ssh-keys
 
 Passwordを毎回聞かれてしまうので、勝手に答えてもらうようにしておく
